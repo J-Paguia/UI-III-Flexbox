@@ -64,3 +64,153 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+*	{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+body	{
+	margin: 0 auto;
+	width: 900px;
+}
+
+p	{
+	font-family: 'Roboto', sans-serif;
+}
+
+a	{
+	text-decoration: none;
+	color: #AAAAAA;
+}
+
+header	{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	border: 1px solid green;
+	justify-content: space-between;
+}
+
+img.logo	{
+	
+	border: 1px solid orange;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav	{
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav a	{
+	/*padding: 0 8% 0 0;*/
+	/*color: #AAAAAA;*/
+	font-weight: bold;
+	/*align-items: center;*/
+	
+	border: 1px solid yellow;
+}
+
+/*---------------mid-Level----------------*/
+
+.mid	{
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+}
+
+.sub-header		{
+	width: 52%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid brown;
+}
+
+hr	{
+	margin-bottom: 30px;
+}
+
+.sub-header h1		{
+	font-size: 90px;	
+}
+
+.sub-header a	{
+	border: 1px solid #999999;
+	font-size: 20px;
+	padding: 0 40px;
+}
+
+.code-snippet	{
+	justify-items: flex-end;
+	width: 47%;	
+}
+
+/*---------------------3rd Level---------------*/
+
+.third-level	{
+	display: flex;
+}
+
+.features p, .about p		{
+	border: 1px solid coral;
+	
+}
+
+.middle-img		{
+	width: 900px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+
+/*------------------fourth-level------------------*/
+
+.fourth-level	{
+	display: flex;
+}
+
+.services, .product, .vision	{
+		margin-bottom: 30px;;
+}
+
+footer	{
+	margin-bottom: 90px;
+}
+
+footer p	{
+	text-align: center;
+}
+
+
+/*---------------start-of-service-page.css--------------*/
+
+
+h1.services	{
+	font-size: 30px;
+}
+
+.services-header-img		{
+	width: 900px;
+	margin-bottom: 30px;
+}
+
+.content-one, .content-two, .content-three, .content-four, .content-five, .content-six	{
+	background-color: #F4F3F4;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
