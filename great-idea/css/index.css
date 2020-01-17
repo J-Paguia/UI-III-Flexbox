@@ -93,13 +93,11 @@ header	{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	display: flex;
-	border: 1px solid green;
 	justify-content: space-between;
 }
 
 img.logo	{
 	
-	border: 1px solid orange;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -112,12 +110,7 @@ nav	{
 }
 
 nav a	{
-	/*padding: 0 8% 0 0;*/
-	/*color: #AAAAAA;*/
 	font-weight: bold;
-	/*align-items: center;*/
-	
-	border: 1px solid yellow;
 }
 
 /*---------------mid-Level----------------*/
@@ -126,7 +119,6 @@ nav a	{
 	margin-bottom: 60px;
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid red;
 }
 
 .sub-header		{
@@ -136,7 +128,6 @@ nav a	{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid brown;
 }
 
 hr	{
@@ -162,11 +153,7 @@ hr	{
 
 .third-level	{
 	display: flex;
-}
-
-.features p, .about p		{
-	border: 1px solid coral;
-	
+	padding-right: 7px;
 }
 
 .middle-img		{
@@ -180,24 +167,28 @@ hr	{
 
 .fourth-level	{
 	display: flex;
+
 }
 
 .services, .product, .vision	{
-		margin-bottom: 30px;;
+		margin-bottom: 30px;
+		padding-right: 7px;
 }
 
 footer	{
 	margin-bottom: 90px;
 }
 
-footer p	{
+footer .home p	{
 	text-align: center;
 }
 
 
 /*---------------start-of-service-page.css--------------*/
 
-
+hr	{
+	border-top: 1px solid gray;
+}
 h1.services	{
 	font-size: 30px;
 }
@@ -209,8 +200,64 @@ h1.services	{
 
 .content-one, .content-two, .content-three, .content-four, .content-five, .content-six	{
 	background-color: #F4F3F4;
-	margin-top: 30px;
 	margin-bottom: 30px;
+	border: 1px solid gray;
+	padding: 20px 20px;
 }
 
+.content-one, .content-three, .content-five	{
+	margin-right: 15px;
+}
 
+.our-service	{
+	margin-bottom: 25px;	
+}
+
+.first-content, .second-content, .third-content{
+	display: flex;
+}
+
+.service-content p	{
+	padding-bottom: 15px;
+}
+
+.service-content a	{
+
+	border: 1px solid gray;
+	background-color: white;
+	padding: 0 20px;
+	border-radius: 5px;
+}
+
+/*----------------------------footer----------------*/
+
+footer.services {
+}
+.services-footer	{
+	display: flex;
+}
+
+.footer-content	{
+	display: flex;
+	flex-direction: column;
+	padding-right: 45px;
+}
+
+.footer-content ul	{
+	list-style-type: square;
+	padding: 15px;
+}
+
+.footer-content ul li	{
+	padding-bottom: 5px;;
+}
+
+.footer-content p	{
+	padding-bottom: 15px;
+}
+
+p.copyright{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
