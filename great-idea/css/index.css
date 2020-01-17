@@ -179,8 +179,10 @@ footer	{
 	margin-bottom: 90px;
 }
 
-footer .home p	{
+footer.home p	{
 	text-align: center;
+	padding: 30px 0;
+
 }
 
 
@@ -231,8 +233,6 @@ h1.services	{
 
 /*----------------------------footer----------------*/
 
-footer.services {
-}
 .services-footer	{
 	display: flex;
 }
@@ -260,4 +260,29 @@ p.copyright{
 	text-align: center;
 	margin-top: 60px;
 	margin-bottom: 60px;
+}
+
+/*-------------------about.html-------------------*/
+
+.about-logo	{
+	
+	width: 900px;
+}
+
+.about-content	{
+	background-color: #F4F3F4;
+	color: gray;
+	padding: 0 15px;;
+}
+
+.about-content h2	{
+	padding-top: 30px;
+}
+
+.about-content	p{
+	margin-bottom: 5px;
+}
+
+.about-p	{
+	padding-bottom: 45px;;
 }
